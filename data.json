@@ -3,7 +3,45 @@
     "name":"Pikachu",
     "phone":"9876543210",
     "photo":"2.png",
-    "email":"pikachu@pokemon.com",
-    "name2":"Togepi..Pika's fnd"
+    "email":"pikachu@pokemon.com"
+  },
+  "education":[{
+    "course":"Btech(CSE)",
+    "college":"Gudlavalleru Engineering college",
+    "data":["2015-2019","85%","JNTU-K"]
+  },
+  {
+    "course":"Inter(MPC)",
+    "college":"Sri Chaithanya jr college",
+    "data":["2013-2015","85%"]
+  },
+  {
+    "course":"SSC",
+    "college":"Universal Higgh School",
+    "data":["2012-2013","90%"]
   }
+],
+"skills":[
+  {
+    "name":"Languages known",
+    "info":["C","python","java","javascript"]
+  },
+  {
+    "name":"Operating Systems",
+    "info":["Windows","Linux","Fedora","unix"]
+  },
+  {
+    "name":"Library",
+    "info":["jQuery","Bootstrap"]
+  },
+  {
+    "name":"Data Bases",
+    "info":["Mysql","pl/sql","mysqlite","oracle"]
+  }
+],
+"achievements":[
+  {
+    "achievs":["Directed a team","Attained  APPSSDC certification for Python course"]
+  }
+]
 }

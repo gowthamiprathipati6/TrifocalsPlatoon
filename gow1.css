@@ -1,0 +1,134 @@
+body{
+  background: #ddd;
+}
+table{
+  border: 1px solid #dad;
+  width: 100%;
+  font-size:30px;
+}
+td{
+  padding:1px;
+}
+table tr:nth-child(odd){
+background: #CFD3B4
+}
+table tr:nth-child(even){
+background:#ddd
+}
+.flex-parent{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid green;
+}
+.profile-child{
+  background: #aaa;
+  width: 30%;
+  padding: 2%;
+  margin: 1%;
+  border: 1px solid #aaa;
+  box-shadow: 5px 5px 5px #000;
+}
+.content-child{
+  background: #aaa;
+  width: 70%;
+  padding: 2%;
+  margin: 1%;
+  border: 1px solid #aaa;
+  box-shadow: 5px 5px 5px #000;
+}
+h2{
+  background: #ddd;
+  padding: 1%;
+  text-align: center;
+}
+.profile_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+}
+.profile_circle{
+  border-radius: 100%;
+  border: 1px solid #ddd;
+}
+a{
+  text-decoration: none;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+  .flex-parent{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    border: 1px solid green;
+  }
+  .profile-child{
+    background: #dad;
+    width: 100%;
+    padding: 2%;
+    margin: 1%;
+    border: 1px solid #aaa;
+    box-shadow: 5px 5px 5px #000;
+  }
+  .content-child{
+    background: #dad;
+    width: 100%;
+    padding: 2%;
+    margin: 1%;
+    border: 1px solid #aaa;
+    box-shadow: 5px 5px 5px #000;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .flex-parent{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    border: 1px solid green;
+  }
+  .profile-child{
+    background: #aaa;
+    width: 100%;
+    padding: 2%;
+    margin: 1%;
+    border: 1px solid #aaa;
+    box-shadow: 5px 5px 5px #000;
+  }
+  .content-child{
+    background: #aaa;
+    width: 100%;
+    padding: 2%;
+    margin: 1%;
+    border: 1px solid #aaa;
+    box-shadow: 5px 5px 5px #000;
+  }
+}
+@media only screen and (min-width:1024px) and (max-width:1366px){
+  .flex-parent{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    border: 1px solid green;
+  }
+  .profile-child{
+    background: #dad;
+    width: 100%;
+    padding: 2%;
+    margin: 1%;
+    border: 1px solid #aaa;
+    box-shadow: 5px 5px 5px #000;
+  }
+  .content-child{
+    background: #aaa;
+    width: 100%;
+    padding: 2%;
+    margin: 1%;
+    border: 1px solid #aaa;
+    box-shadow: 5px 5px 5px #000;
+  }
+}
