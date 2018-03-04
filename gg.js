@@ -95,16 +95,17 @@ function skills(food){
 }
 
 
-// let h1tag2=document.createElement("h1");
-// h1tag2.setAttribute("id","heading");
-// h1tag2.textContent=("achievements ");
-// h1tag2.appendChild(document.createElement("hr"));
-// // function achieveinfo(gow){
-//   for(i in gow){
-//     var h2tag=document.createElement("h2");
-//     h2tag.classList.add("abc");
-//     h2tag.textContent=gow[i].achievs;
-//   }
-//   right.appendChild(h1tag2);
-//   h1tag2.appendChild(h2tag);
-// }
+var h1tag2=document.createElement("h1");
+h1tag2.setAttribute("id","heading");
+h1tag2.textContent=("Achievements ");
+h1tag2.appendChild(document.createElement("hr"));
+ function achieveinfo(gow){
+  for(i in gow){
+    var h2tag=document.createElement("h2");
+    h2tag.classList.add("abc");
+    h2tag.textContent=gow[i].achievs;
+    h2tag.appendChild(document.createElement("BR"));
+  }
+  right.appendChild(h1tag2);
+  h1tag2.appendChild(h2tag);
+}
