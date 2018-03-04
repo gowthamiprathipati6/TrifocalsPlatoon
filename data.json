@@ -3,7 +3,8 @@
     "name":"Pikachu",
     "phone":"9876543210",
     "photo":"2.png",
-    "email":"pikachu@pokemon.com"
+    "email":"pikachu@pokemon.com",
+    "name2":"Togepi Pika's fnd"
   },
   "education":[{
     "course":"Btech(CSE)",
